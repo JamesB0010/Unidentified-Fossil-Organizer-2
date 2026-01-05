@@ -1,4 +1,5 @@
 # Games Audio Implementation - UFO #
+<img width="315" height="250" alt="UFO2 hero image" src="https://github.com/user-attachments/assets/cb2e8c09-52c5-4d5c-a1cc-ef52b75e3ce6" />
 
 ## Project Overview ##
 
