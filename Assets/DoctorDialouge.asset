@@ -1,0 +1,614 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1946feaec865d344dabf0419b1c94973, type: 3}
+  m_Name: DoctorDialouge
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: c258b568-d17a-4c52-a2eb-8d670466aa3a
+    TargetNodeGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+  - BaseNodeGuid: 0d259084-91b7-46a4-9a8a-0a118c391950
+    TargetNodeGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+  - BaseNodeGuid: bb56bec4-ff77-4302-9447-f264f5d8c3fc
+    TargetNodeGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+  - BaseNodeGuid: f98dd13e-8703-4efe-ac76-7a0da21c9a0d
+    TargetNodeGuid: ae28d717-cf74-4dd2-bc60-77d739bac6ba
+  - BaseNodeGuid: ae28d717-cf74-4dd2-bc60-77d739bac6ba
+    TargetNodeGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+  - BaseNodeGuid: ebbdb551-ac41-4201-9664-189aed0ca782
+    TargetNodeGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+  - BaseNodeGuid: da9b34c5-89bb-485f-b251-18f199cf6816
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 3132c4e5-e5d2-4ea2-abcf-e0a9e54b448c
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: a5f633c7-a8f5-41be-9a20-398e717874f8
+    TargetNodeGuid: 6dca5abc-9490-4030-92ef-532daef85e4e
+  - BaseNodeGuid: 6dca5abc-9490-4030-92ef-532daef85e4e
+    TargetNodeGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+  - BaseNodeGuid: e39cf7ba-459a-4d66-977f-6f00c8fbe9b1
+    TargetNodeGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+  - BaseNodeGuid: fc9d8aca-e4e4-4284-9a9a-a47898fd3137
+    TargetNodeGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+  - BaseNodeGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+    TargetNodeGuid: 3132c4e5-e5d2-4ea2-abcf-e0a9e54b448c
+  - BaseNodeGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+    TargetNodeGuid: a5f633c7-a8f5-41be-9a20-398e717874f8
+  - BaseNodeGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+    TargetNodeGuid: e39cf7ba-459a-4d66-977f-6f00c8fbe9b1
+  - BaseNodeGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+    TargetNodeGuid: f98dd13e-8703-4efe-ac76-7a0da21c9a0d
+  - BaseNodeGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+    TargetNodeGuid: ebbdb551-ac41-4201-9664-189aed0ca782
+  - BaseNodeGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+    TargetNodeGuid: da9b34c5-89bb-485f-b251-18f199cf6816
+  - BaseNodeGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+    TargetNodeGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+  - BaseNodeGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+    TargetNodeGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+  - BaseNodeGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+    TargetNodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+  - BaseNodeGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+    TargetNodeGuid: fc9d8aca-e4e4-4284-9a9a-a47898fd3137
+  - BaseNodeGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+    TargetNodeGuid: 0d259084-91b7-46a4-9a8a-0a118c391950
+  - BaseNodeGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+    TargetNodeGuid: bb56bec4-ff77-4302-9447-f264f5d8c3fc
+  DialogueChoiceNodeDatas:
+  - NodeGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+    Position: {x: 2327.2, y: 0.80000114}
+    FmodEventRef: {fileID: 11400000, guid: e43035b60f6593e44b63f7ec4761c201, type: 2}
+    DialogueNodePorts:
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: b3833c0d-61f3-4d5d-8008-e8413b2f9488
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: will you please let me out now?
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+    Position: {x: 1850.4, y: 595.2}
+    FmodEventRef: {fileID: 11400000, guid: 6801ec57f84d34a4c9852c632a85126c, type: 2}
+    DialogueNodePorts:
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Do you really Mean that
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+    Position: {x: 1131.2, y: 1068.7999}
+    FmodEventRef: {fileID: 11400000, guid: 320e873a6751df34c919e075cfebedd5, type: 2}
+    DialogueNodePorts:
+    - InputGuid: 3132c4e5-e5d2-4ea2-abcf-e0a9e54b448c
+      OutputGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Tell me where the skeleton is or your next
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: a5f633c7-a8f5-41be-9a20-398e717874f8
+      OutputGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: The mothership sees all, we know all your secrets
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: e39cf7ba-459a-4d66-977f-6f00c8fbe9b1
+      OutputGuid: cd58233a-2f87-4ede-a4b8-72d1c114d84b
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Thats why we have 3!
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: How was i supposed to know you need your heart
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+    Position: {x: 2024.8, y: 1409.6}
+    FmodEventRef: {fileID: 11400000, guid: 32f48d30bd0ee3144ae74895532cea28, type: 2}
+    DialogueNodePorts:
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: 'No '
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 5a5f14a5-9338-4a70-9108-34cf01b1869c
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Can i have one
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+    Position: {x: 2024.8, y: 1068.7999}
+    FmodEventRef: {fileID: 11400000, guid: e43035b60f6593e44b63f7ec4761c201, type: 2}
+    DialogueNodePorts:
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 76a24591-673e-45fe-86ad-b7a9a8b891d1
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: No
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Will you please let me out now
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+    Position: {x: 1354.4, y: 37.600002}
+    FmodEventRef: {fileID: 11400000, guid: b300a6c9bb9a14448a52432df1146390, type: 2}
+    DialogueNodePorts:
+    - InputGuid: f98dd13e-8703-4efe-ac76-7a0da21c9a0d
+      OutputGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: OMG thats aweful tell me more
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: ebbdb551-ac41-4201-9664-189aed0ca782
+      OutputGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Mmmm miffed ive never heard of this, is it a bone?
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: da9b34c5-89bb-485f-b251-18f199cf6816
+      OutputGuid: 28d0cc4a-9c4d-4861-a5ad-2d5c00356fec
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Puny human, youve had it coming a long time!
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Im miffed
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+    Position: {x: 1217.6, y: 578.4}
+    FmodEventRef: {fileID: 11400000, guid: 1ce639033d0b6624fb67383a22615737, type: 2}
+    DialogueNodePorts:
+    - InputGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+      OutputGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Im sorry for your loss
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: 563bed30-ab08-4b4d-bb82-48846c217d27
+      OutputGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: She is one with the mothership now
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+      OutputGuid: 90317bc0-8112-4c02-a51d-5bdad48bb927
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Leave...
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: '*cough*'
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  - NodeGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+    Position: {x: 605.6, y: 492}
+    FmodEventRef: {fileID: 11400000, guid: 0840559cc73126442819b2a036d5ff5c, type: 2}
+    DialogueNodePorts:
+    - InputGuid: fc9d8aca-e4e4-4284-9a9a-a47898fd3137
+      OutputGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Yes are you okay?!
+      - languageEnum: 1
+        LanguageGenericType: Choice 01
+    - InputGuid: 0d259084-91b7-46a4-9a8a-0a118c391950
+      OutputGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Bow down to the mothership human
+      - languageEnum: 1
+        LanguageGenericType: Choice 02
+    - InputGuid: bb56bec4-ff77-4302-9447-f264f5d8c3fc
+      OutputGuid: 8d227737-83bd-4997-94c8-20a17fd53357
+      TextLanguage:
+      - languageEnum: 0
+        LanguageGenericType: Where are your skeletons?
+      - languageEnum: 1
+        LanguageGenericType: Choice 03
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 11400000, guid: 8afb258c883bc054c9269b6aab2af096, type: 2}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Hello can anyone hear me?!
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 5
+  DialogueNodeDatas:
+  - NodeGuid: 0d259084-91b7-46a4-9a8a-0a118c391950
+    Position: {x: 954.4, y: 578.4}
+    FmodEventRef: {fileID: 11400000, guid: 0b185c53deebd854c841595f98e86995, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: My mothers dead
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: bb56bec4-ff77-4302-9447-f264f5d8c3fc
+    Position: {x: 730.4, y: 1044.7999}
+    FmodEventRef: {fileID: 11400000, guid: 13200bb7e766cdb4d9ca115e8d42e301, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: You know about the bodies
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: f98dd13e-8703-4efe-ac76-7a0da21c9a0d
+    Position: {x: 1685.6, y: -258.4}
+    FmodEventRef: {fileID: 11400000, guid: 656c35604f028a84d9e23700a48c16b3, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: My wife's leaving me
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: ae28d717-cf74-4dd2-bc60-77d739bac6ba
+    Position: {x: 2086.4, y: -354.4}
+    FmodEventRef: {fileID: 11400000, guid: b28a1bfffc69a5e4d981ffd9887cd84d, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: One of thems a biter, he gets it from his old man
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: ebbdb551-ac41-4201-9664-189aed0ca782
+    Position: {x: 2034.4, y: 16}
+    FmodEventRef: {fileID: 11400000, guid: 6bbe90da5647c9244b11569b0f0c84c8, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Miffed explanation
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: da9b34c5-89bb-485f-b251-18f199cf6816
+    Position: {x: 2034.4, y: 307.2}
+    FmodEventRef: {fileID: 11400000, guid: 59614cdf8f8ce3843ab7cf289d3e00d0, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Someones coming
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: 3132c4e5-e5d2-4ea2-abcf-e0a9e54b448c
+    Position: {x: 1560.8, y: 832}
+    FmodEventRef: {fileID: 11400000, guid: e98bfb9b10bdd90479141af4daf72d7c, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Leave me alone
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: a5f633c7-a8f5-41be-9a20-398e717874f8
+    Position: {x: 1504, y: 1127.2}
+    FmodEventRef: {fileID: 11400000, guid: f2aab281a7a6bcd4995cba7d37bcd7e9, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: ...
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: e39cf7ba-459a-4d66-977f-6f00c8fbe9b1
+    Position: {x: 1560.8, y: 1432.7999}
+    FmodEventRef: {fileID: 11400000, guid: 87daca0a81e4aef48ad4de559588864d, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: Do you know how much money i could make off 3 hearts?!
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: fc9d8aca-e4e4-4284-9a9a-a47898fd3137
+    Position: {x: 980, y: 199.2}
+    FmodEventRef: {fileID: 11400000, guid: 525cfb43c4a97f04db718d033dd7efc8, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: No im not alright
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  - NodeGuid: 6dca5abc-9490-4030-92ef-532daef85e4e
+    Position: {x: 1760.8, y: 1127.2}
+    FmodEventRef: {fileID: 11400000, guid: 8e5eb5e116d2d4344a85d93eac2d5ccb, type: 2}
+    DialogueNodePorts: []
+    AudioClips:
+    - languageEnum: 0
+      LanguageGenericType: {fileID: 0}
+    - languageEnum: 1
+      LanguageGenericType: {fileID: 0}
+    Character: {fileID: 0}
+    AvatarPos: 0
+    AvatarType: 0
+    TextType:
+    - languageEnum: 0
+      LanguageGenericType: ...
+    - languageEnum: 1
+      LanguageGenericType: 
+    Duration: 10
+  EndNodeDatas:
+  - NodeGuid: 5559e26d-a53b-4862-98c4-3e752325182b
+    Position: {x: 3349.6, y: 668.8}
+    FmodEventRef: {fileID: 0}
+    EndNodeType: 0
+  StartNodeDatas:
+  - NodeGuid: c258b568-d17a-4c52-a2eb-8d670466aa3a
+    Position: {x: 448, y: 518.4}
+    FmodEventRef: {fileID: 0}
+    startID: 
+  TimerChoiceNodeDatas: []
+  EventNodeDatas: []
+  RandomNodeDatas: []
+  CommandNodeDatas: []
+  IFNodeDatas: []

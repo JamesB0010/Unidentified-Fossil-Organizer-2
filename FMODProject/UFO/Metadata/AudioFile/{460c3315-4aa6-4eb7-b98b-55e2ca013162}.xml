@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{460c3315-4aa6-4eb7-b98b-55e2ca013162}">
+		<property name="assetPath">
+			<value>Collisions/Hard Throw.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.50770975056689338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{93d4c17c-f9ad-4652-a062-25625d090e87}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
+		<property name="name">
+			<value>Foley</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{934355ee-1643-47fa-b2ab-b5656a64b689}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{468042e3-f490-40af-b01d-dd0015f22008}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8787fed0-1bd1-4494-a435-c6953af54b0d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f7ad226e-efab-4b5e-842f-de626b3a9a0d}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{934355ee-1643-47fa-b2ab-b5656a64b689}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>12</value>
+		</property>
+		<property name="releaseTime">
+			<value>3000</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-80</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-18.5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{63d0cdea-236c-4895-8336-ae776cf78439}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{468042e3-f490-40af-b01d-dd0015f22008}">
+		<relationship name="effects">
+			<destination>{150eb58e-34f1-4978-88b9-265665e5b502}</destination>
+			<destination>{bbcfe5cd-5b99-4f5d-99f9-de1a324f5a1c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8787fed0-1bd1-4494-a435-c6953af54b0d}" />
+	<object class="MixerBusFader" id="{150eb58e-34f1-4978-88b9-265665e5b502}" />
+	<object class="MixerSend" id="{bbcfe5cd-5b99-4f5d-99f9-de1a324f5a1c}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{9f7bb685-6b74-4606-ac14-84be51d50919}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a2c42920-505b-40fd-9891-14613e707864}">
+		<property name="assetPath">
+			<value>Dialogue/James Alien Sounds/Alien sounds_01-191 [2025-02-20 174128].wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.60469387755102044</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

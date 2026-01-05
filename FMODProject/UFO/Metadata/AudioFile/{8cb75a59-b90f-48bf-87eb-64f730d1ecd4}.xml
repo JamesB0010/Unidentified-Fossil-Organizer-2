@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8cb75a59-b90f-48bf-87eb-64f730d1ecd4}">
+		<property name="assetPath">
+			<value>Music/Base Synths/Echo Bay.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>68</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{27f13db6-0f07-4040-8cd3-c06ce8704d01}">
+		<property name="assetPath">
+			<value>Dialogue/PA Lady Dialogue/PA Nails Dialogue.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.4106666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

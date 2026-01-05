@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{41d2fff7-12b4-4910-98cc-1824a9fd00f3}">
+		<property name="name">
+			<value>Flatline</value>
+		</property>
+		<relationship name="folder">
+			<destination>{101b6b5d-667e-4f28-a26b-843d255fad5c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ec4f853b-ddb8-44cd-938e-f745b960b948}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ec4f853b-ddb8-44cd-938e-f745b960b948}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

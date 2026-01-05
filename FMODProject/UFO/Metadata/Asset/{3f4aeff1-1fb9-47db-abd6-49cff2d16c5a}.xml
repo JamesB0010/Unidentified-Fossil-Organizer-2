@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream:FMODProject/UFO/Metadata/Asset/{3f4aeff1-1fb9-47db-abd6-49cff2d16c5a}.xml
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{3f4aeff1-1fb9-47db-abd6-49cff2d16c5a}">
+=======
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{ee992f8b-c2cb-4125-a1b4-ce8ef0421a14}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+>>>>>>> Stashed changes:FMODProject/UFO/Metadata/Asset/{ee992f8b-c2cb-4125-a1b4-ce8ef0421a14}.xml
+		<property name="assetPath">
+			<value>Machine/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

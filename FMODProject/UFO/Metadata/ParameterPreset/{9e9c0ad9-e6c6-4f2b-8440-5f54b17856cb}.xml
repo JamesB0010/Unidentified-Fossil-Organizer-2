@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{9e9c0ad9-e6c6-4f2b-8440-5f54b17856cb}">
+		<property name="name">
+			<value>OceanDistance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{101b6b5d-667e-4f28-a26b-843d255fad5c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{73642da0-0628-47c8-a865-982811e8a049}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{73642da0-0628-47c8-a865-982811e8a049}">
+		<property name="maximum">
+			<value>125</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

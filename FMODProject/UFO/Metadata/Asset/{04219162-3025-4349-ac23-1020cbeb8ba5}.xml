@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream:FMODProject/UFO/Metadata/Asset/{04219162-3025-4349-ac23-1020cbeb8ba5}.xml
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{04219162-3025-4349-ac23-1020cbeb8ba5}">
+=======
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{7e44e6d4-d0bd-47b9-b457-05f9b6e15006}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
+>>>>>>> Stashed changes:FMODProject/UFO/Metadata/Asset/{7e44e6d4-d0bd-47b9-b457-05f9b6e15006}.xml
+		<property name="assetPath">
+			<value>Gun_Siren/Gunshot/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

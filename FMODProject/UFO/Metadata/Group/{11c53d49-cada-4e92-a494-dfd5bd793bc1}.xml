@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{11c53d49-cada-4e92-a494-dfd5bd793bc1}">
+		<property name="color">
+			<value>Green Light 2</value>
+		</property>
+		<property name="volume">
+			<value>-6</value>
+		</property>
+		<property name="name">
+			<value>Doctor</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a121f955-0092-4911-9066-98acf6d5dac8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c7f19fe5-4494-46c8-9de1-a48b74331d62}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{849f1826-9955-4936-a4f4-f81609ea4da2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a121f955-0092-4911-9066-98acf6d5dac8}">
+		<relationship name="effects">
+			<destination>{a0f499f4-3edb-4d37-ae3a-d78e81184aed}</destination>
+			<destination>{51cb83dc-a629-443b-a85b-2f945ad32ddc}</destination>
+			<destination>{0af7059f-ecf1-4a31-9d5e-c2ac4a4307fa}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c7f19fe5-4494-46c8-9de1-a48b74331d62}" />
+	<object class="MixerBusFader" id="{a0f499f4-3edb-4d37-ae3a-d78e81184aed}" />
+	<object class="SFXReverbEffect" id="{51cb83dc-a629-443b-a85b-2f945ad32ddc}">
+		<property name="decayTime">
+			<value>230</value>
+		</property>
+		<property name="diffusion">
+			<value>53.5</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{0af7059f-ecf1-4a31-9d5e-c2ac4a4307fa}">
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="filterTypeB">
+			<value>8</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>140.236496</value>
+		</property>
+		<property name="frequencyB">
+			<value>334.80011</value>
+		</property>
+		<property name="frequencyC">
+			<value>245.36496</value>
+		</property>
+		<property name="qualityA">
+			<value>2.59081697</value>
+		</property>
+		<property name="gainA">
+			<value>-23.0516052</value>
+		</property>
+		<property name="gainB">
+			<value>-22.0113773</value>
+		</property>
+		<property name="gainC">
+			<value>24.7988605</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream:FMODProject/UFO/Metadata/Asset/{917bf370-19cd-4565-9cf0-e96e412f30a0}.xml
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{917bf370-19cd-4565-9cf0-e96e412f30a0}">
+=======
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{ca0acaa9-9b09-4868-a844-ff76de3c9d72}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
+>>>>>>> Stashed changes:FMODProject/UFO/Metadata/Asset/{ca0acaa9-9b09-4868-a844-ff76de3c9d72}.xml
+		<property name="assetPath">
+			<value>Minecraft/TimeOfDay/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

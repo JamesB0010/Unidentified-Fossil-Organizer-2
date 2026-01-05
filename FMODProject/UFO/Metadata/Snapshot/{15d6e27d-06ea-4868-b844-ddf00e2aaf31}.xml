@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{15d6e27d-06ea-4868-b844-ddf00e2aaf31}">
+		<property name="name">
+			<value>DuckMusic</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{85be3c4c-503b-4100-9457-8d98b9b0e48b}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{427887fd-9d9c-46c2-aee5-9f090008a779}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{fc546227-d776-460f-a9d8-3825c1a314d4}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{915ef5a9-1904-4df6-a63a-b9a4c93271e6}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{fdd1e852-2dd9-48ff-afea-87900271a49e}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{a9c056ca-cc55-4bf9-b6de-11123f9532d2}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{2b2043c6-8382-4ba4-a58d-6c032d67f135}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{427887fd-9d9c-46c2-aee5-9f090008a779}" />
+	<object class="MarkerTrack" id="{fc546227-d776-460f-a9d8-3825c1a314d4}" />
+	<object class="Timeline" id="{915ef5a9-1904-4df6-a63a-b9a4c93271e6}" />
+	<object class="SnapshotMasterTrack" id="{fdd1e852-2dd9-48ff-afea-87900271a49e}" />
+	<object class="SnapshotProperty" id="{a9c056ca-cc55-4bf9-b6de-11123f9532d2}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-15.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{c0f9aa4d-79bf-4aec-aab1-2318c9ccfef4}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{2b2043c6-8382-4ba4-a58d-6c032d67f135}">
+		<relationship name="mixerStrip">
+			<destination>{c0f9aa4d-79bf-4aec-aab1-2318c9ccfef4}</destination>
+		</relationship>
+	</object>
+</objects>

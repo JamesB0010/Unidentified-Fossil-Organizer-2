@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{00da7746-d8ac-4edd-adf0-101184905fd9}">
+		<property name="name">
+			<value>Response Length</value>
+		</property>
+		<relationship name="folder">
+			<destination>{101b6b5d-667e-4f28-a26b-843d255fad5c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{87930229-5f9f-4d89-b5ad-261347c9e265}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{87930229-5f9f-4d89-b5ad-261347c9e265}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

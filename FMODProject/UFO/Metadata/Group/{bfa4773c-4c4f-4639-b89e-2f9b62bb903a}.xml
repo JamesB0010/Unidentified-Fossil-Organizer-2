@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{bfa4773c-4c4f-4639-b89e-2f9b62bb903a}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
+		<property name="name">
+			<value>Dialogue</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{3b444cc2-c38d-42b0-9573-f236f501f9d1}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{e60c1da6-7444-4f4a-ae49-4da16e2bdf4a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{41f2ea3e-416c-4749-9199-3280b8a36545}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f7ad226e-efab-4b5e-842f-de626b3a9a0d}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{3b444cc2-c38d-42b0-9573-f236f501f9d1}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>12</value>
+		</property>
+		<property name="releaseTime">
+			<value>2900</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-80</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-16.5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{63d0cdea-236c-4895-8336-ae776cf78439}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e60c1da6-7444-4f4a-ae49-4da16e2bdf4a}">
+		<relationship name="effects">
+			<destination>{670c069a-e73f-4e97-9da3-879c57dec55c}</destination>
+			<destination>{5e20058c-2aa1-4547-b76f-a3e0beda1b9a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{41f2ea3e-416c-4749-9199-3280b8a36545}" />
+	<object class="MixerBusFader" id="{670c069a-e73f-4e97-9da3-879c57dec55c}" />
+	<object class="MixerSend" id="{5e20058c-2aa1-4547-b76f-a3e0beda1b9a}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{9f7bb685-6b74-4606-ac14-84be51d50919}</destination>
+		</relationship>
+	</object>
+</objects>

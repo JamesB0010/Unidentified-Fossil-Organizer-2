@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream:FMODProject/UFO/Metadata/Asset/{547e0543-a0a5-462c-ba5e-9157d0c1d3ed}.xml
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{547e0543-a0a5-462c-ba5e-9157d0c1d3ed}">
+=======
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{031bfead-0885-4692-b600-80bcfa0c3fd6}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+>>>>>>> Stashed changes:FMODProject/UFO/Metadata/Asset/{031bfead-0885-4692-b600-80bcfa0c3fd6}.xml
+		<property name="assetPath">
+			<value>Minecraft/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

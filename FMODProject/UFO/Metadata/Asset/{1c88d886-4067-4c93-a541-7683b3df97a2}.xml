@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream:FMODProject/UFO/Metadata/Asset/{1c88d886-4067-4c93-a541-7683b3df97a2}.xml
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{1c88d886-4067-4c93-a541-7683b3df97a2}">
+=======
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{9b40deba-494c-4ba5-aad8-0294ba6cdd39}">
+		<property name="color">
+			<value>Magenta Light 2</value>
+		</property>
+>>>>>>> Stashed changes:FMODProject/UFO/Metadata/Asset/{9b40deba-494c-4ba5-aad8-0294ba6cdd39}.xml
+		<property name="assetPath">
+			<value>Creatures/Small/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{036cf765-cbe4-4d02-a286-bc8ca83c13b6}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d93782994d2d65446b1eee623b46de9c, type: 3}
+  m_Name: Riff About taking heart out
+  m_EditorClassIdentifier: 
+  eventReference:
+    Guid:
+      Data1: 1076613328
+      Data2: 1186398333
+      Data3: -2132905811
+      Data4: -331048145
+    Path: event:/Dialogue/Doctor Dialogue/Tree/Doctor Hillary Dialogue

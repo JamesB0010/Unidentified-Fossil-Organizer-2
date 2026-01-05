@@ -1,0 +1,40 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Dialouge.uss?fileID=7433441132597879392&amp;guid=cb14cfa68ef7d144da9b194dd7be5049&amp;type=3#Dialouge" />
+    <ui:VisualElement name="Dialouge" style="flex-grow: 1; position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:VisualElement name="Buffer" style="flex-grow: 0; height: 54%; align-items: center; justify-content: flex-end;">
+            <ui:Label tabindex="-1" text="???" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PersonTalkingName" style="-unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Anton%20SDF.asset?fileID=11400000&amp;guid=31cec5d850d924145a3ca828b8bf8a37&amp;type=2#Anton SDF&quot;); color: rgb(255, 255, 255); font-size: 40%; translate: -661px 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TalkingTrack" style="flex-grow: 0; height: 18%; justify-content: center; align-items: center; padding-bottom: 10px;">
+            <ui:VisualElement name="TalkingContentBackground" style="flex-grow: 0; width: 80%; height: 100%; background-color: rgba(0, 0, 0, 0.43); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px; border-left-color: rgb(0, 255, 11); border-right-color: rgb(0, 255, 11); border-top-color: rgb(0, 255, 11); border-bottom-color: rgb(0, 255, 11); border-top-left-radius: 52px; border-top-right-radius: 52px; border-bottom-right-radius: 52px; border-bottom-left-radius: 52px; align-items: center; justify-content: center;">
+                <ui:Label tabindex="-1" text="Hello?! Is anybody out there can anybody here me?!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DialougeTalkingText" style="color: rgb(255, 255, 255); font-size: 53px; -unity-text-align: middle-center; -unity-font: initial; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Anton%20SDF.asset?fileID=11400000&amp;guid=31cec5d850d924145a3ca828b8bf8a37&amp;type=2#Anton SDF&quot;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="PlayerChoices" style="flex-grow: 1;">
+            <ui:VisualElement name="Choice1Track" style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                <ui:VisualElement name="Choice1Background" class="TalkingChoice" style="transition-property: all; transition-duration: 0.3s; transition-timing-function: ease-out; opacity: 1;">
+                    <ui:Label tabindex="-1" text="Oh no are you okay?!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Choice1Text" class="ResponseText HoveredResponseText" style="white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Choice2Track" style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; display: flex;">
+                <ui:VisualElement name="Choice2Background" class="TalkingChoice" style="transition-property: all; transition-duration: 0.5s; transition-timing-function: ease-out; opacity: 1; display: flex;">
+                    <ui:Label tabindex="-1" text="What are you doing in there?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Choice2Text" class="ResponseText" style="white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Choice3Track" style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; overflow: visible; visibility: visible; display: flex;">
+                <ui:VisualElement name="Choice3Background" class="TalkingChoice" style="transition-property: all; transition-duration: 0.7s; transition-timing-function: ease-out; opacity: 1; visibility: visible; overflow: visible; display: flex;">
+                    <ui:Label tabindex="-1" text="Yes your voice annoys me" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Choice3Text" class="ResponseText" style="white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="UserPrompts" style="flex-grow: 1; left: 0; top: 0; right: 0; bottom: 0; position: absolute;">
+        <ui:VisualElement name="TopBuffer" style="flex-grow: 0; height: 73.5%;" />
+        <ui:VisualElement name="ArrowSection" style="flex-grow: 1; margin-left: 434px;">
+            <ui:VisualElement style="flex-grow: 0; height: 52px; width: 89px; background-image: url(&quot;project://database/Assets/Sprites/arrow_basic_e.png?fileID=2800000&amp;guid=859b9866248c8664c8243ad41cfbe42a&amp;type=3#arrow_basic_e&quot;); -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="PressInteractFullScreen" style="flex-grow: 1; left: 0; top: 0; right: 0; bottom: 0; position: absolute;">
+        <ui:VisualElement name="Buffer" style="flex-grow: 0; height: 91%;" />
+        <ui:Label tabindex="-1" text="Press Rt (Controller) or e (Keyboard) to interact" parse-escape-sequences="true" display-tooltip-when-elided="true" name="whatTodotext" style="color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Anton%20SDF.asset?fileID=11400000&amp;guid=31cec5d850d924145a3ca828b8bf8a37&amp;type=2#Anton SDF&quot;); -unity-text-align: middle-right; font-size: 19px; padding-right: 19px;" />
+    </ui:VisualElement>
+</ui:UXML>

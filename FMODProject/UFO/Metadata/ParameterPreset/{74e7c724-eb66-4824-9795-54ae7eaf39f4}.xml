@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{74e7c724-eb66-4824-9795-54ae7eaf39f4}">
+		<property name="name">
+			<value>Prop mute</value>
+		</property>
+		<relationship name="folder">
+			<destination>{101b6b5d-667e-4f28-a26b-843d255fad5c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{58fbde98-3c96-4aa9-afe8-8b3fd9623a03}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{58fbde98-3c96-4aa9-afe8-8b3fd9623a03}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{d3d3616a-970c-4301-8bfc-acb249bc5663}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{d3d3616a-970c-4301-8bfc-acb249bc5663}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

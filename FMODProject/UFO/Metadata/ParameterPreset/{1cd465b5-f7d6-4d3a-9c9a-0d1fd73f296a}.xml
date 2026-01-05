@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1cd465b5-f7d6-4d3a-9c9a-0d1fd73f296a}">
+		<property name="name">
+			<value>In Kart</value>
+		</property>
+		<relationship name="folder">
+			<destination>{101b6b5d-667e-4f28-a26b-843d255fad5c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7532a1fe-5925-4ea1-b46b-7f6438a4f898}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7532a1fe-5925-4ea1-b46b-7f6438a4f898}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
